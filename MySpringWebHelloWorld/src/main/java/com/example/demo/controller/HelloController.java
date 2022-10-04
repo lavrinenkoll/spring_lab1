@@ -22,12 +22,12 @@ public class HelloController {
 
     @RequestMapping("/denis")
     public String denis(Model model) {
-        return "Julia.html";
+        return "Denis.html";
     }
 
     @RequestMapping("/team")
     public String team(Model model) {
-        return "Julia.html";
+        return "Team.html";
     }
 }
 
